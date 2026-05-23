@@ -5,7 +5,7 @@ import { IssueRoutes } from "../modules/issue/issue.route";
 const router = Router();
 
 /**
- * Health Check (optional but good for marks)
+ * Health Check 
  */
 router.get("/health", (req, res) => {
   res.status(200).json({

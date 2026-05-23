@@ -17,7 +17,7 @@ app.use(express.json());
 app.use("/api", router);
 
 /**
- * Global Error Handler (must be last middleware)
+ * Global Error Handler 
  */
 app.use(globalErrorHandler);
 
