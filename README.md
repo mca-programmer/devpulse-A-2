@@ -5,6 +5,19 @@
 🌐 **Live URL:** https://devpulse-api-gb3p.onrender.com
 
 ---
+## 🌐 Health Check
+
+```bash
+GET https://devpulse-api-gb3p.onrender.com/api/health
+
+# Response
+{
+  "success": true,
+  "message": "DevPulse API is running"
+}
+```
+
+---
 
 ## ✨ Features
 
@@ -167,20 +180,6 @@ npm run dev
 | **Platform** | Render |
 | **Database** | NeonDB (PostgreSQL) |
 | **Status** | ✅ Live |
-
----
-
-## 🌐 Health Check
-
-```bash
-GET https://devpulse-api-gb3p.onrender.com/api/health
-
-# Response
-{
-  "success": true,
-  "message": "DevPulse API is running"
-}
-```
 
 ---
 
